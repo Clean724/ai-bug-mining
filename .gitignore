@@ -1,0 +1,17 @@
+# Target source tree is supplied separately by the competition platform.
+/code/
+
+# Large intermediate audit outputs.
+/work/candidate_findings*.md
+/work/audit_prompts/
+
+# Local runtime and Python cache files.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local editor and environment files.
+.vscode/
+.idea/
+.env
+
